@@ -1,0 +1,14 @@
+package empresa;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Funcionario f1 = new Funcionario("Matheus");
+		Funcionario f2 = f1;
+		
+		System.out.println("F1: "+f1.getNome());
+
+	}
+
+}

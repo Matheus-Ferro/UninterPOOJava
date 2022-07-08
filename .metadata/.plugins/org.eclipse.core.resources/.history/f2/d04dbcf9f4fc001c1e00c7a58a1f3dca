@@ -1,0 +1,26 @@
+package empresa;
+
+public class Cofrinho {
+	Moeda moe;
+	double totalReais;
+	int totalMoeda;
+	public Cofrinho(Moeda moe){
+		setMoe(moe);
+	}
+	
+	public Moeda getMoe() {
+		return moe;
+	}
+
+	public void setMoe(Moeda moe) {
+		totalReais += moe.getValor();
+		totalMoeda += 1;
+		this.moe = moe;
+	}
+
+	public void info() {
+		System.out.println("Total de Moedas: " + totalMoeda);
+		System.out.println("Total em Reais: " + totalReais);
+	}
+	
+}

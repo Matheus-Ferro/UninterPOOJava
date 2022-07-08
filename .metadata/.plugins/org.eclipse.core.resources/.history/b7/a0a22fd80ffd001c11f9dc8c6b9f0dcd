@@ -1,0 +1,6 @@
+package empresa;
+
+public class Horista extends Funcionario {
+	private int totalHoras;
+	private float valorHora;
+}

@@ -1,0 +1,14 @@
+package empresa;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Horario h1 = new Horario();
+		h1.setHora(23);
+		h1.setMinuto(59);
+		h1.setSegundo(59);
+		h1.info();
+
+	}
+
+}

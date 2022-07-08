@@ -1,0 +1,6 @@
+package empresa;
+
+public class LivroFisico {
+	private int tiragem;
+	private int peso;
+}

@@ -1,0 +1,10 @@
+package empresa;
+
+public class Desktop extends Computador{
+	double acessorios;
+	
+	@Override
+	double calculaValor() {
+		return (GbMemoria * 200) + (NumProcessadores * 400) + acessorios;
+	}
+}

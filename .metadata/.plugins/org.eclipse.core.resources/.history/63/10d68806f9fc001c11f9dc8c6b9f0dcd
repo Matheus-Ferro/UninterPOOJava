@@ -1,0 +1,40 @@
+package empresa;
+
+import java.util.ArrayList;
+
+public class Cofrinho {
+	private ArrayList<Moeda> moedas = new ArrayList();
+	
+	public Cofrinho(Moeda moeda){
+		add(moeda);
+	}
+	
+	public Moeda getMoedas() {
+		for(Object moeda : moedas){
+			if(moeda.)
+		}
+	}
+
+	public void add(Moeda moeda) {
+		this.moedas = moedas;
+	}
+	
+	public double calcularTotal() {
+		double total;
+		for(Moeda m : moedas) {
+			total += m.getValor();
+		}
+		return total;
+	}
+
+	public void info() {
+		System.out.println("Total de Moedas: " + totalMoeda);
+		System.out.println("Moedas de R$ 0,05: ");
+		System.out.println("Moedas de R$ 0,10: ");
+		System.out.println("Moedas de R$ 0,25: ");
+		System.out.println("Moedas de R$ 0,50: ");
+		System.out.println("Moedas de R$ 1,00: ");
+		System.out.printf("Total em R$: %.2f", calcularTotal());
+	}
+	
+}

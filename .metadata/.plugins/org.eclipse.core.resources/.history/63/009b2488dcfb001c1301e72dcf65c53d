@@ -1,0 +1,10 @@
+package empresa;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Nota matheus = new Nota(5, 10, 1);
+		matheus.resultado();
+	}
+
+}

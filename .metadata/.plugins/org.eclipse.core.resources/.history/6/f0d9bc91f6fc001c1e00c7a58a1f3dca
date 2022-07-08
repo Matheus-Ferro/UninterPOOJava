@@ -1,0 +1,24 @@
+package empresa;
+
+import java.util.ArrayList;
+
+public class Cofrinho {
+	private ArrayList<Moeda> moe = new ArrayList();
+	public Cofrinho(Moeda moe){
+		setMoe(moe);
+	}
+	
+	public Moeda getMoe() {
+		return moe;
+	}
+
+	public void setMoe(Moeda moe) {
+		this.moe = moe;
+	}
+
+	public void info() {
+		System.out.println("Total de Moedas: " + totalMoeda);
+		System.out.printf("Total em R$: %.2f", totalReais);
+	}
+	
+}

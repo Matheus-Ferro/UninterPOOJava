@@ -1,0 +1,7 @@
+package empresa;
+
+public class Autor {
+	private String nome;
+	private String email;
+	private String nacionalidade;
+}

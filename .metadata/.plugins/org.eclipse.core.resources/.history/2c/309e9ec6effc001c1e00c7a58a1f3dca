@@ -1,0 +1,10 @@
+package empresa;
+
+public class Curso {
+	private String nome;
+	private double mensalidade;
+	
+	void descrever() {
+		
+	}
+}

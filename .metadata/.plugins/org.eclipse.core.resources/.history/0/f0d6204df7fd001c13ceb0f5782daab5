@@ -1,0 +1,7 @@
+package empresa;
+
+// Por padrão no Java uma sub-classe só pode ter 1 super-classe, isso pode ser contornado usando uma interface como
+// super-classe
+public interface Animal {
+	
+}

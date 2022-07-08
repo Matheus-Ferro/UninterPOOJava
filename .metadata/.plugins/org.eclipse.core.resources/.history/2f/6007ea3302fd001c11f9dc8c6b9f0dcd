@@ -1,0 +1,11 @@
+package empresa;
+
+public class Pricipal {
+
+	public static void main(String[] args) {
+		Livro l1 = new Livro("A Revolta de Atras", "Ayn Rand");
+		LivroDigitalYes l2 = new LivroDigitalYes("A Revolta de Atras", "Ayn Rand");
+		
+	}
+
+}

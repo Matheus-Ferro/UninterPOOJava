@@ -1,0 +1,12 @@
+package empresa;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Animal g1 = new Gato();
+		g1.emitirSom();
+		g1.dormir();
+
+	}
+
+}

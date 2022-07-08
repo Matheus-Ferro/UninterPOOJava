@@ -1,0 +1,21 @@
+// Exemplo de como usar herança.
+package empresa;
+
+// extends faz com que a classe atual seja uma extensão da outra, ou seja, herda seus
+// atributos e métodos. Nesse exemplo a classe LivroDigital é filha da classe Livro,
+// herdando atributos da mesma.
+public class LivroDigital extends Livro{
+
+	public String linkDownload;
+	public int tamanhoMB;
+	
+//	Note que se eu declarar um método que já exista na classe mãe, vou estar sobrescrevendo
+//	o método da mesma.
+	public float imposto() {
+		return 0.2f * lucro() + 2;
+	}
+	
+	public float tamanhoPorPagina() {
+		return tamanhoMB/(float)paginas;
+	}
+}

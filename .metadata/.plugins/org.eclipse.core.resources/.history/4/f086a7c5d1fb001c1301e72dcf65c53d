@@ -1,0 +1,20 @@
+package empresa;
+
+import java.util.ArrayList;
+
+public class Principal {
+
+	public static void main(String[] args) {
+//		ArrayList faz parte das Collections, bem como a LinkedList e o HashMap.
+		ArrayList<String> pessoas = new ArrayList<String>();
+		
+		pessoas.add("Matheus");
+		pessoas.add("Giovanna");
+		pessoas.add("Mariana");
+		pessoas.add("Fernanda");
+		
+		System.out.println(pessoas);
+		
+	}
+
+}

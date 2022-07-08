@@ -1,0 +1,11 @@
+package empresa;
+
+public class Desktop extends Computador{
+	
+	double acessorios;
+	
+	@Override
+	double calculaValor() {
+		
+	}
+}

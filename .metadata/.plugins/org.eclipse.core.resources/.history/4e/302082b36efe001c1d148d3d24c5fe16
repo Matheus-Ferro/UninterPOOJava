@@ -1,0 +1,12 @@
+package empresa;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Computador compA = new Desktop(8, 4, 600);
+		Computador compB = new Notebook(8, 4, 15);
+		
+
+	}
+
+}

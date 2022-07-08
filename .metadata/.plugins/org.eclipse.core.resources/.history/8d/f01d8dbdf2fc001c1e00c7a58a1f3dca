@@ -1,0 +1,20 @@
+package empresa;
+
+public class Cofrinho {
+	Moeda moe;
+	public Cofrinho(Moeda moe){
+		setMoe(moe);
+	}
+	
+	public Moeda getMoe() {
+		return moe;
+	}
+
+	public void setM(Moeda moe) {
+		this.moe = moe;
+	}
+
+	public void adicionar() {
+		
+	}
+}

@@ -1,0 +1,40 @@
+package empresa;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+
+public class Principal {
+
+	public static void main(String[] args) {
+//		ArrayList faz parte das Collections, bem como a LinkedList e o HashMap.
+		ArrayList<String> pessoas = new ArrayList<String>();
+		
+		pessoas.add("Matheus");
+		pessoas.add("Giovanna");
+		pessoas.add("Mariana");
+		pessoas.add("Fernanda");
+		
+		System.out.println("Ordem de Entrada:");
+		System.out.println(pessoas);
+		
+		System.out.println("Ordem Alfabetica:");
+		Collections.sort(pessoas);
+		System.out.println(pessoas);
+		
+//		-------------------------------------------------------------------------------
+//		O HashMap é composto por dois valores, um para a chave e outro para o atriburo
+		HashMap<String, String> capitais = new HashMap<String, String>();
+		capitais.put("Brasil", "Brasília");
+		capitais.put("Argentina", "Buenos Aires");
+		capitais.put("Paraguai", "Assunção");
+		capitais.put("Uruguai", "Montevidéu");
+		
+		System.out.println("HashMap inteiro:");
+		System.out.println(capitais);
+		
+		System.out.println("HashMap na posição Uruguai:");
+		System.out.println(capitais.get("Uruguai"));
+	}
+
+}

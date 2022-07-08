@@ -1,0 +1,6 @@
+package empresa;
+
+public class LivroDigital {
+	private int download;
+	private double tamanho;
+}

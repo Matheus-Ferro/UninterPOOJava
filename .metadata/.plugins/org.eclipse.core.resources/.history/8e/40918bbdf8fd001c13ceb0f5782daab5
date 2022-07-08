@@ -1,0 +1,6 @@
+package empresa;
+/* Assim como extends é utilizado para se referir à super-classe no conceito de herança, com interfaces utilizamos 
+ * implements, e então a classe passará a se utilizar da interface */
+public class Gato implements Animal{
+	
+}

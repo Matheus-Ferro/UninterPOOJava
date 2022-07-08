@@ -1,0 +1,10 @@
+package empresa;
+
+public class Notebook extends Computador {
+	int polegadasTela;
+	
+	@Override
+	double calculaValor(){
+		return (GbMemoria * 250) + (NumProcessadores * 500) + (polegadasTela * 100);
+	}
+}

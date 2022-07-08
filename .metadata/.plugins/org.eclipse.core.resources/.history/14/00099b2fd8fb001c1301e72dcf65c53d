@@ -1,0 +1,6 @@
+package empresa;
+
+public class Nota {
+	private double nota1;
+	private double nota2;
+}
