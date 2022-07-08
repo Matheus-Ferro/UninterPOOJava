@@ -1,6 +1,0 @@
-package empresa;
-
-public class Funcionario implements Imprimivel {
-	String nome;
-	String cpf;
-}

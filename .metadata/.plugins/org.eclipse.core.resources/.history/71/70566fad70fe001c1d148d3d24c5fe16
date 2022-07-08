@@ -1,6 +1,0 @@
-package empresa;
-
-public class Funcionario {
-	String nome;
-	String cpf;
-}

@@ -1,8 +1,0 @@
-package empresa;
-
-public abstract class Computador {
-	int GbMemoria;
-	int NumProcessadores;
-	
-	abstract double calculaValor();
-}

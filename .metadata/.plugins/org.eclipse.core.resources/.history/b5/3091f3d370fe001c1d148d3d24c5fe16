@@ -1,7 +1,0 @@
-package empresa;
-
-public class Carro implements Imprimivel {
-	String marca;
-	String cor;
-	int portas;
-}

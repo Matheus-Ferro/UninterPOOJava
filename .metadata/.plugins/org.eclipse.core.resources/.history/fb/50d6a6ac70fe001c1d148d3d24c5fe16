@@ -1,7 +1,0 @@
-package empresa;
-
-public class Carro {
-	String marca;
-	String cor;
-	int portas;
-}

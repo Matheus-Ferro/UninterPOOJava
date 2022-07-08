@@ -1,9 +1,0 @@
-package empresa;
-
-public class Ingresso {
-	public String nomeEvento;
-	public double valor;
-	
-	public void imprimir();
-	
-}

@@ -1,9 +1,0 @@
-package empresa;
-
-public class Funcionario {
-	private String nome;
-	
-	public void pagamento() {
-		
-	}
-}

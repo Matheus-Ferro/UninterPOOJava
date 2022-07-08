@@ -1,5 +1,0 @@
-package empresa;
-
-public class Quadrado implements Imprimivel {
-	int medidaLado;
-}

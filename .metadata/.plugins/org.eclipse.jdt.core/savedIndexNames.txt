@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+/home/breakcore/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
-1351736012.index
-1865797976.index

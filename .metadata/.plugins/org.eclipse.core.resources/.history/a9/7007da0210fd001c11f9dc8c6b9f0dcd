@@ -1,6 +1,0 @@
-package empresa;
-
-public class Comissionado extends Funcionario{
-	private float comissao;
-	private float vendas;
-}
