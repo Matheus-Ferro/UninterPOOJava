@@ -1,1 +1,2 @@
-# uninter_poo_java
+# Programação Orientada a Objetos - Uninter
+Conteúdo praticado nas aulas
